@@ -9,5 +9,4 @@ import (
 func main() {
     var result []string = scrape.Scrape("https://zenn.dev/books/explore")
     fmt.Println(result)
-	test := "test"
 }
