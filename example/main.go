@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-    "github.com/ei-sugimoto/webscraper"
+
+	scrape "github.com/ei-sugimoto/webscraper"
 )
 
 func main() {
-    var result []string = .Scrape("https://zenn.dev/books/explore")
+    var result []string = scrape.Scrape("https://zenn.dev/books/explore")
     fmt.Println(result)
 }
