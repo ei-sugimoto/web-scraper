@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	scrape "github.com/ei-sugimoto/webscraper"
+	scrape "github.com/ei-sugimoto/webscrape"
 )
 
 func main() {
