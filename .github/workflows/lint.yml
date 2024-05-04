@@ -9,3 +9,8 @@ jobs:
           fetch-depth: 0
       - name: golangci-lint
         uses: reviewdog/action-golangci-lint@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          level: warning
+          golangci_lint_flags: "--config=.golang-ci.yml"
