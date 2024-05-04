@@ -10,9 +10,3 @@ func main() {
     var result []string = scrape.Scrape("https://zenn.dev/books/explore")
     fmt.Println(result)
 }
-
-
-func typo() {
-	mispell := "misspell"
-	println(mispell)
-}
