@@ -19,3 +19,4 @@ jobs:
           go_version: 1.22
           level: error
           golangci_lint_flags: "--config=.github/.golang-ci.yml"
+          fail_on_error: true
