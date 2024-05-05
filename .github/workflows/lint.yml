@@ -17,5 +17,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           go_version: 1.22
-          level: warning
+          level: error
           golangci_lint_flags: "--config=.github/.golang-ci.yml"

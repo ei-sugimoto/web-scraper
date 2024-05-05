@@ -1,5 +1,5 @@
 # web-scraper
-
+[![test](https://github.com/ei-sugimoto/webscraper/actions/workflows/test.yml/badge.svg)](https://github.com/ei-sugimoto/webscraper/actions/workflows/test.yml) [![codecov](https://codecov.io/github/ei-sugimoto/webscraper/graph/badge.svg?token=XHRUJ4OVA8)](https://codecov.io/github/ei-sugimoto/webscraper) [![.github/workflows/lint.yml](https://github.com/ei-sugimoto/webscraper/actions/workflows/lint.yml/badge.svg)](https://github.com/ei-sugimoto/webscraper/actions/workflows/lint.yml)
 ## install
 
 ```bash
