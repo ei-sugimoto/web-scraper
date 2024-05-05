@@ -1,23 +1,20 @@
-# https://golangci-lint.run/usage/configuration/
+run:
+  deadline: 5m
+
 linters-settings:
   govet:
     check-shadowing: true
   golint:
-    min-confidence: 0
-  misspell:
-    locale: US
-  errcheck:
-    check-type-assertions: false
-    check-blank: false
-
+    min-confidence: 0.8
 linters:
-  disable-all: true
+  disable-all: false
   enable:
     - govet
-    - golint
-    - misspell
     - errcheck
+    - staticcheck
+    - unused
+    - gosimple
+    - misspell
+    - lll
+    - gofumpt
 
-issues:
-  exclude-use-default: false
-  max-same-issues: 0
